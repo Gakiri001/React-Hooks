@@ -1,6 +1,7 @@
 import React from "react"
 import StateTutorial from "./pages/StateTutorial"
 import StateTutorial2 from "./pages/StateTutorial2"
+import ReducerTutorial from "./pages/ReducerTutorial"
 
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
   return (
     <>
     {/* <StateTutorial/> */}
-    <StateTutorial2/>
+    {/* <StateTutorial2/> */}
+    <ReducerTutorial/>
     </>
   )
 }
