@@ -7,6 +7,7 @@ import Birthday from "./pages/Birthday";
 import RefTutorial from "./pages/RefTutorial";
 import LayoutEffectTutorial from "./pages/LayoutEffectTutorial";
 import ImperativeHandle from "./pages/ImperativeHandle";
+import ContextTutorial from "./pages/ContextTutorial/ContextTutorial";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <EffectTutorial /> */}
       {/* <RefTutorial/> */}
       {/* <LayoutEffectTutorial/> */}
-      <ImperativeHandle/>
+      {/* <ImperativeHandle/> */}
+      <ContextTutorial/>
       {/* <Birthday/> */}
     </>
   );
