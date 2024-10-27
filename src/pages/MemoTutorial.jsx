@@ -29,11 +29,11 @@ export default function MemoTutorial() {
     return longestName;
   };
 
-  const getLongestName = useMemo(() => findLongestName(data), [])
+  const getLongestName = useMemo(() => findLongestName(data), [data])
 
   return (
     <div>
-      <div>{findLongestName(data)}</div>
+      <div>{getLongestName}</div>
       <button
       onClick={() => {
         setToggle(!toggle)
